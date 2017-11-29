@@ -1,0 +1,12 @@
+{
+  "smtp": {
+    "host": "smtp.exmail.qq.com",
+    "port": 465,
+    "secure": true
+  },
+  "account": {
+    "user": "xxxx",
+    "pass": "xxxx"
+  },
+  "interval": 30
+}

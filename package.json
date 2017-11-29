@@ -1,0 +1,17 @@
+{
+  "name": "prooductmonitor",
+  "version": "1.0.0",
+  "description": "线上产品服务可用性监测服务",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HL",
+  "license": "ISC",
+  "dependencies": {
+    "log4js": "^2.3.12",
+    "node-schedule": "^1.2.5",
+    "nodemailer": "^4.4.0",
+    "request": "^2.83.0"
+  }
+}
