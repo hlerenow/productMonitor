@@ -8,5 +8,6 @@
     "user": "xxxx",
     "pass": "xxxx"
   },
+  "to": "xxxx",
   "interval": 30
 }

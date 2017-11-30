@@ -47,8 +47,8 @@ function checkProduct () {
         logger(`${product.name} 出错 ---  ${product.url}`);
         /* 发送报警邮件 */
         var message = {
-            from: 'hlere@yeegen.com',
-            to: 'hlere@yeegen.com',
+            from: config.account.user,
+            to: config.to,
             subject: '产品停止服务',
             text: '产品停止服务',
             html: `<h2>${product.name} 产品停止服务</h2><p>地址：${product.url}</p><div>${JSON.stringify(err)}</div>`
